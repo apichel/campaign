@@ -64,14 +64,14 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Join Mike Schmidt
+          Join Name Here
         </BigTitle>
-        <Subtitle>Help reform public safety in Multnomah County.</Subtitle>
-        <Subtitle>Mike Schmidt for District Attorney 2020</Subtitle>
+        <Subtitle>Help reform public safety in County.</Subtitle>
+        <Subtitle>Name Here for Office 2020</Subtitle>
         <Subtitle><Checkout /></Subtitle>
       </Hero>
       <Projects offset={1}>
-        <Title>What will Mike do?</Title>
+        <Title>What will Name do?</Title>
         <ProjectsWrapper>
           <ProjectCard
             title="Platform One"
@@ -104,7 +104,7 @@ const Index = () => (
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
-        <Title>Meet Mike</Title>
+        <Title>Meet Name</Title>
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
@@ -125,7 +125,7 @@ const Index = () => (
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Mike for DA{' '}
+          &copy; 2019 by Name for DA{' '}
         </Footer>
       </Contact>
     </Parallax>
