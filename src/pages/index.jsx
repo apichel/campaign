@@ -10,6 +10,7 @@ import ProjectCard from '../components/ProjectCard'
 // Elements
 import Inner from '../elements/Inner'
 import { Title, BigTitle, Subtitle } from '../elements/Titles'
+import Checkout from "../components/Checkout"
 
 // Views
 import Hero from '../views/Hero'
@@ -63,58 +64,55 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm John Doe.
+          Join Mike Schmidt
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>Help reform public safety in Multnomah County.</Subtitle>
+        <Subtitle>Mike Schmidt for District Attorney 2020</Subtitle>
+        <Subtitle><Checkout /></Subtitle>
       </Hero>
       <Projects offset={1}>
-        <Title>Projects</Title>
+        <Title>What will Mike do?</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
+            title="Platform One"
             link="https://www.behance.net/gallery/58937147/Freiheit"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi ratione similique in est ad, quaerat eos, architecto nemo a, laudantium non. Inventore tenetur at consequatur placeat esse. Sint, sequi minima.
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
+            title="Platform Two"
             link="https://www.behance.net/gallery/52915793/Harry-Potter"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi ratione similique in est ad, quaerat eos, architecto nemo a, laudantium non. Inventore tenetur at consequatur placeat esse. Sint, sequi minima.
           </ProjectCard>
           <ProjectCard
-            title="Tomb Raider"
+            title="Platform Three"
             link="https://www.behance.net/gallery/43907099/Tomb-Raider"
-            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi ratione similique in est ad, quaerat eos, architecto nemo a, laudantium non. Inventore tenetur at consequatur placeat esse. Sint, sequi minima.
           </ProjectCard>
           <ProjectCard
-            title="Eagle"
+            title="Platform Four"
             link="https://www.behance.net/gallery/38068151/Eagle"
-            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            A fantasy image manipulation relocating the habitat of wild animals.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi ratione similique in est ad, quaerat eos, architecto nemo a, laudantium non. Inventore tenetur at consequatur placeat esse. Sint, sequi minima.
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
-        <Title>About</Title>
+        <Title>Meet Mike</Title>
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo suscipit repudiandae tenetur quod a, in est quibusdam culpa. Modi reiciendis nulla quod odio beatae harum hic tempore eligendi odit? Rerum.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sequi ipsa praesentium cupiditate saepe totam laudantium provident, doloremque ab voluptatibus ex reprehenderit dolore maiores quo reiciendis! Libero dolores molestias accusantium. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae dolorem vero nulla cum, officia aliquam quaerat voluptate. Quisquam placeat ad esse nihil, corporis id temporibus? Quis qui provident accusamus eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consequatur sapiente vitae incidunt voluptate amet assumenda dolorem. Cupiditate culpa, pariatur sunt error odit perspiciatis expedita animi veniam incidunt eligendi quidem!
         </AboutDesc>
       </About>
       <Contact offset={4}>
@@ -127,9 +125,7 @@ const Index = () => (
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>. Made by{' '}
-          <a href="https://www.lekoarts.de">LekoArts</a>.
+          &copy; 2019 by Mike for DA{' '}
         </Footer>
       </Contact>
     </Parallax>
